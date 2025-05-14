@@ -34,18 +34,4 @@ tesodev-product-api/
 - **Gin** – HTTP web framework
 - **mgo / official MongoDB driver** – Mongo bağlantısı için
 
-## Başlangıç
 
-Projeyi çalıştırmak için aşağıdaki adımları izleyin:
-
-### 1. Bağımlılıkları yükleyin
-
-```bash
-go mod tidy
-Yöntem	Endpoint	Açıklama
-GET	/products	Tüm ürünleri listeler
-GET	/products/:id	ID ile ürün getirir
-POST	/products	Yeni ürün oluşturur
-PUT	/products/:id	Ürünü günceller
-DELETE	/products/:id	Ürünü siler
-GET	/search?q=kelime	Arama yapar
