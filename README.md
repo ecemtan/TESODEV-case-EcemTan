@@ -17,6 +17,15 @@ tesodev-product-api/
 ├── middleware/
 │ └── logger.go // Loglama middleware
 
+| Yöntem | Endpoint         | Açıklama              |
+| ------ | ---------------- | --------------------- |
+| GET    | /products        | Tüm ürünleri listeler |
+| GET    | /products/\:id   | ID ile ürün getirir   |
+| POST   | /products        | Yeni ürün oluşturur   |
+| PUT    | /products/\:id   | Ürünü günceller       |
+| DELETE | /products/\:id   | Ürünü siler           |
+| GET    | /search?q=kelime | Arama yapar           |
+
 
 ## Özellikler
 
